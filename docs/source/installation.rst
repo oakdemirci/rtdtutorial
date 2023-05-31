@@ -9,9 +9,14 @@ Miniforge
 Windows
 ^^^^^^^^
 
-Kullanıcı bilgisayarlarına mevcut temel sistem ayarları bozulmadan, yeni ortam oluşturularak kurulum
-yapılmalıdır. Bu iş için ilk olarak sanal ortam kurulur. Windows için `miniforge`_ kurulum dosyası indirilir ve ardından varsayılan ayarlar ile kurulum yapılır. “Sadece benim için kur” seçeneği seçilirse (tercihen) kurulum C:\Users altına gerçekleşir. Örneğin C:\Users\murat\miniforge3 altında kurulum
-sorunsuz çalışmaktadır.
+
+.. note::
+
+   Installation should be completed using a new virtual environment, without changing current system settings.
+
+
+First create a new virtual environment.
+Download `miniforge`_ file and run executable. Installation for current user is recommended and the target will be c:\\Users directory, for example the app will run from c:\\Users\\murat\\miniforge3 directory after a successful installation.
 
 .. _miniforge: https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe
 
