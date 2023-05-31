@@ -22,4 +22,6 @@ Contents
 
    usage
    api
-   menuitem
+   project
+   installation
+   docker
