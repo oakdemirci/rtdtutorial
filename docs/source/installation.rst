@@ -10,14 +10,17 @@ Windows
 ^^^^^^^^
 
 Kullanıcı bilgisayarlarına mevcut temel sistem ayarları bozulmadan, yeni ortam oluşturularak kurulum
-yapılmalıdır. Bu iş için ilk olarak sanal ortam kurulur. https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe adresinden Windows için kurulum dosyası indirilir ve ardından varsayılan ayarlar ile kurulum yapılır. “Sadece benim için kur” seçeneği seçilirse (tercihen) kurulum C:\Users
-altına gerçekleşir. Örneğin C:\Users\murat\miniforge3 altında kurulum
+yapılmalıdır. Bu iş için ilk olarak sanal ortam kurulur. Windows için `miniforge`_ kurulum dosyası indirilir ve ardından varsayılan ayarlar ile kurulum yapılır. “Sadece benim için kur” seçeneği seçilirse (tercihen) kurulum C:\Users altına gerçekleşir. Örneğin C:\Users\murat\miniforge3 altında kurulum
 sorunsuz çalışmaktadır.
+
+.. _miniforge: https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe
 
 Linux
 ^^^^^^^^
 
-https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
+`Linux kurulum`_ dosyası indirilir.
+
+.. _linux kurulum: https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
 
 .. code-block:: console
 
@@ -29,7 +32,9 @@ https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Lin
 OsX
 ^^^^^^^^
 
-https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh
+`OsX kurulum`_ dosyası indirilir.
+
+.. _osx kurulum: https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh
 
 .. code-block:: console
 
@@ -90,15 +95,17 @@ Aynı ekranda aşağıdaki komutlar ile ilgili Python kütüphaneleri kurulur.
 osmocom
 ------------
 
-https://downloads.osmocom.org/binaries/windows/rtl-sdr/rtl-sdr-64bit-20221120.zip indirilir ve
-conda ortamı (UHTE) altına çıkarılır. (Örneğin C:\Users\murat\miniforge3\envs\UHTE)
+`Osmocom`_ kurulumu indirilir ve conda ortamı (UHTE) altına çıkarılır. (Örneğin C:\Users\murat\miniforge3\envs\UHTE)
+
+.. _osmocom: https://downloads.osmocom.org/binaries/windows/rtl-sdr/rtl-sdr-64bit-20221120.zip
 
 RTL-SDR Sürücüleri
 ------------
 
-https://github.com/pbatard/libwdi/releases/download/b730/zadig-2.5.exe adresinden dosya
-indirilir.
-https://airspy.com/?ddownload=3130 adresinden SDR# indirilir.
+`Rtl`_ ve `Sdr`_ kurulumları indirilir.
+
+.. _rtl: https://github.com/pbatard/libwdi/releases/download/b730/zadig-2.5.exe
+.. _sdr: https://airspy.com/?ddownload=3130
 
 Sürücü kurulumu gerçek donanıma ihtiyaç duyduğu için ders esnasında gerçekleştirilecektir.
 Yukarıdaki dosyaların kullanıcı bilgisayarına indirilmesi yeterlidir.
