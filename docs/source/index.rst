@@ -22,6 +22,6 @@ Contents
 
    usage
    api
-   proje
-   kurulum
+   project
+   installation
    docker
