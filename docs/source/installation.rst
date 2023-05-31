@@ -3,5 +3,29 @@ Installation Instructions
 
 .. item:
 
-Installation Instructions
+Miniforge
 ------------
+
+
+uhte Yeni Ortam 
+------------
+
+JupyterLab
+------------
+
+GNU Radio
+------------
+
+
+Kütüphaneler
+------------
+
+osmocom
+------------
+
+RTL-SDR Sürücüleri
+------------
+
+Kurulumun Testi
+------------
+
