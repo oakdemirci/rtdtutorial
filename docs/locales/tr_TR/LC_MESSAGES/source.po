@@ -228,4 +228,3 @@ msgstr ""
 #: ../../source/usage.rst:29
 msgid "For example:"
 msgstr ""
-
