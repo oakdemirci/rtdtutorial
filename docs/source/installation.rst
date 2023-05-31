@@ -7,7 +7,7 @@ Miniforge
 ------------
 
 
-uhte Yeni Ortam 
+uhte Yeni Ortam Kurulumu
 ------------
 
 JupyterLab
