@@ -3,10 +3,6 @@ Kurulum
 
 .. _installation:
 
-.. note::
-
-   This project is under active development.
-
 Miniforge
 ------------
 
@@ -44,7 +40,7 @@ UHTE Yeni Ortam Kurulumu
 
 .. note::
 
-   Miniforge kurulduktan sonra Windows tuşuna basılarak, “miniforge” aratıldığında “Miniforge Prompt” komut satırı görüntülenmektedir. Miniforge Prompt açılarak eğitim boyunca kullanacağımız UHTE ortamı aşağıdaki komut yazılarak oluşturulur.
+   Windows işletim Sisteminde; Miniforge kurulduktan sonra Windows tuşuna basılarak, “miniforge” aratıldığında “Miniforge Prompt” komut satırı görüntülenmektedir. Miniforge Prompt açılarak eğitim boyunca kullanacağımız UHTE ortamı aşağıdaki komut yazılarak oluşturulur.
 
 
 .. code-block:: console
@@ -55,19 +51,68 @@ UHTE Yeni Ortam Kurulumu
 JupyterLab
 ------------
 
+Ardından aynı “Miniforge Prompt” ekranında ilk olarak UHTE ortamı aktive edilir ve JupyterLab uygulaması kurulur.
+
+.. code-block:: console
+
+   conda activate UHTE
+   conda install jupyterlab
+
+
 GNU Radio
 ------------
+
+Aynı ekranda aşağıdaki komutlar ile GNU Radio kurulur.
+
+.. code-block:: console
+
+   conda config --append channels conda-forge
+   conda install gnuradio python=3.9
 
 
 Kütüphaneler
 ------------
 
+Aynı ekranda aşağıdaki komutlar ile ilgili Python kütüphaneleri kurulur.
+
+.. code-block:: console
+
+   conda install numpy
+   conda install scipy
+   conda install matplotlib
+   conda install -c conda-forge ipympl
+   conda install -c conda-forge python-sounddevice
+   pip install playsound==1.2.2
+   conda install soapysdr-module-rtlsdr
+   conda install pymodes
+
+
 osmocom
 ------------
+
+https://downloads.osmocom.org/binaries/windows/rtl-sdr/rtl-sdr-64bit-20221120.zip indirilir ve
+conda ortamı (UHTE) altına çıkarılır. (Örneğin C:\Users\murat\miniforge3\envs\UHTE)
 
 RTL-SDR Sürücüleri
 ------------
 
+https://github.com/pbatard/libwdi/releases/download/b730/zadig-2.5.exe adresinden dosya
+indirilir.
+https://airspy.com/?ddownload=3130 adresinden SDR# indirilir.
+
+Sürücü kurulumu gerçek donanıma ihtiyaç duyduğu için ders esnasında gerçekleştirilecektir.
+Yukarıdaki dosyaların kullanıcı bilgisayarına indirilmesi yeterlidir.
+
+
 Kurulumun Testi
 ------------
 
+Kurulumları test etmek için yeni bir Miniforge Prompt açılır ve komut satırından UHTE ortamı
+aktive edilir ve ardından Jupyter Lab başlatılır.
+
+.. code-block:: console
+
+   conda activate UHTE
+   jupyter-lab
+
+Gelen Launcher ekranından Python3 Notebook seçilerek yeni bir not defteri oluşturulur.
