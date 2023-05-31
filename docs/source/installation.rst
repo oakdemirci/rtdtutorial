@@ -1,1 +1,7 @@
-installation instructions
+Installation Instructions
+=====
+
+.. item:
+
+Installation Instructions
+------------
