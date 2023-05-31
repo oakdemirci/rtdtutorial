@@ -3,6 +3,10 @@ Kurulum
 
 .. _installation:
 
+.. note::
+
+   This project is under active development.
+
 Miniforge
 ------------
 
@@ -40,9 +44,6 @@ UHTE Yeni Ortam Kurulumu
 
 .. note::
 
-   This project is under active development.
-
-.. note::
    Miniforge kurulduktan sonra Windows tuşuna basılarak, “miniforge” aratıldığında “Miniforge Prompt” komut satırı görüntülenmektedir. Miniforge Prompt açılarak eğitim boyunca kullanacağımız UHTE ortamı aşağıdaki komut yazılarak oluşturulur.
 
 
