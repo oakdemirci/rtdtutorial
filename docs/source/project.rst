@@ -3,5 +3,5 @@ Project Description
 
 .. item:
 
-Menu Item
+Haki Project
 ------------
